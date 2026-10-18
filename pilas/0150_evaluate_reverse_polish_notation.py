@@ -8,3 +8,15 @@ class Solution:
         for token in tokens:
             if token not in ["+", "-", "*", "/"]:
                 pila.append(int(token))
+            else:
+                b = pila.pop()
+                a = pila.pop()
+
+                if token == "+":
+                    pila.append(a + b)
+                elif token == "-":
+                    pila.append(a - b)
+                elif token == "*":
+                    pila.append(a * b)
+                elif token == "/":
+                    pila.append(int(a / b))
