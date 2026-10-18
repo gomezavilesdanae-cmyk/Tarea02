@@ -4,3 +4,8 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:
+        pila = []
+
+        for caracter in s:
+            if caracter in "([{":
+                pila.append(caracter)
