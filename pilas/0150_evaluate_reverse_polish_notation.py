@@ -5,3 +5,6 @@
 class Solution:
     def evalRPN(self, tokens: list[str]) -> int:
         pila = []
+        for token in tokens:
+            if token not in ["+", "-", "*", "/"]:
+                pila.append(int(token))
