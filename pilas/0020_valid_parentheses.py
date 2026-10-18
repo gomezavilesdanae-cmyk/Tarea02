@@ -9,3 +9,13 @@ class Solution:
         for caracter in s:
             if caracter in "([{":
                 pila.append(caracter)
+            elif caracter in ")]}":
+                if not pila:
+                    return False
+
+                ultimo = pila.pop()
+
+                if (caracter == ")" and ultimo != "(") or \
+                   (caracter == "]" and ultimo != "[") or \
+                   (caracter == "}" and ultimo != "{"):
+                    return False
