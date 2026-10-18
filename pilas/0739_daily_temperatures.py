@@ -7,3 +7,9 @@ class Solution:
         n = len(temperatures)
         respuesta = [0] * n
         pila = []
+        for i in range(n):
+            while pila and temperatures[i] > temperatures[pila[-1]]:
+                anterior = pila.pop()
+                respuesta[anterior] = i - anterior
+
+            pila.append(i)
