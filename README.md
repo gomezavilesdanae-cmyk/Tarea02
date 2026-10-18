@@ -1,4 +1,4 @@
-# EQUIPO: EL REAL MAIZ 🌽
+# EQUIPO: EL REAL MAIZ 
 
 ## Integrantes:
 * Gómez Avilés Danae
@@ -6,29 +6,30 @@
 * Padilla Benitez Zuemi Alejandra
 * Sánchez Nutes Sakti Sarai
 
-# Tarea02
-Objetivo El alumno pondrá en práctica el uso de las estructuras de datos lineales de Python (listas, pilas y colas) y de las expresiones regulares con el módulo re, resolviendo problemas de la plataforma LeetCode. Además, analizará la complejidad temporal y espacial de cada solución y justificará la elección de cada estructura.
+---
 
+## Tarea 02: Listas, Expresiones Regulares, Pilas y Colas
 
-## Estructura del Repositorio 📁
-```text
-Tarea02/
-├── listas/
-│   ├── 0001_two_sum.py
-│   ├── 0238_product_of_array_except_self.py
-│   └── 0056_merge_intervals.py
-├── regex/
-│   ├── 0929_unique_email_addresses.py
-│   ├── 0592_fraction_addition_and_subtraction.py
-│   └── 0065_valid_number.py
-├── pilas/
-│   ├── 0020_valid_parentheses.py
-│   ├── 0150_evaluate_reverse_polish_notation.py
-│   └── 0739_daily_temperatures.py
-├── colas/
-│   ├── 0232_implement_queue_using_stacks.py
-│   ├── 0622_design_circular_queue.py
-│   └── 0239_sliding_window_maximum.py
-├── capturas/
-├── analisis.pdf
-└── README.md
+Objetivo: El alumno pondrá en práctica el uso de las estructuras de datos lineales de Python (listas, pilas y colas) y de las expresiones regulares con el módulo re, resolviendo problemas de la plataforma LeetCode. Además, analizará la complejidad temporal y espacial de cada solución y justificará la elección de cada estructura.
+
+### Problemas Resueltos:
+
+#### 1. Listas
+* #1 Two Sum
+* #238 Product of Array Except Self
+* #56 Merge Intervals (Extra)
+
+#### 2. Expresiones Regulares
+* #929 Unique Email Addresses
+* #592 Fraction Addition and Subtraction
+* #65 Valid Number
+
+#### 3. Pilas
+* #20 Valid Parentheses
+* #150 Evaluate Reverse Polish Notation
+* #739 Daily Temperatures
+
+#### 4. Colas
+* #232 Implement Queue using Stacks
+* #622 Design Circular Queue
+* #239 Sliding Window Maximum
