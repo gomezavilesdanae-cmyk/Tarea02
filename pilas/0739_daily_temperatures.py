@@ -13,3 +13,5 @@ class Solution:
                 respuesta[anterior] = i - anterior
 
             pila.append(i)
+
+        return respiesta
