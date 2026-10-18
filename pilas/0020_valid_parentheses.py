@@ -19,3 +19,4 @@ class Solution:
                    (caracter == "]" and ultimo != "[") or \
                    (caracter == "}" and ultimo != "{"):
                     return False
+        return len(pila) == 0
