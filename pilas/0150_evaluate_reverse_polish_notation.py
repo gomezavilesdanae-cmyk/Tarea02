@@ -20,3 +20,4 @@ class Solution:
                     pila.append(a * b)
                 elif token == "/":
                     pila.append(int(a / b))
+        return pila[-1]
